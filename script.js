@@ -1,5 +1,5 @@
 const apiKey = '213e24513ce543a3956225138242005';
-const baseUrl = 'http://api.weatherapi.com/v1/current.json';
+const baseUrl = 'https://api.weatherapi.com/v1/current.json';
 
 async function fetchWeather(location) {
     const response = await fetch(`${baseUrl}?key=${apiKey}&q=${location}`);
